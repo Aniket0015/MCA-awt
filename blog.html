@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini blog</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+            *{
+                margin :0px;
+                padding: 0px;
+                
+            }
+            header{
+                background-color: rgb(19, 21, 21);
+                width: 100%;
+               
+                text-align: center;
+                padding: 20px;
+            }
+            header h1{
+                color: aliceblue;
+                margin-bottom: 10px;
+            }
+            nav a{
+                color: rgb(239, 250, 249);
+                text-decoration: none;
+                margin: 0px 15px;
+                
+               
+            }
+            #home{
+              padding: 20px;
+            background-color: rgb(233, 205, 205);
+            }
+            #home h2{
+                padding: 2px;
+                font: bolder;
+            }
+            #home p{
+                margin: 5px;
+            }
+           #home img{
+            width: 200px;
+            height: 300px;
+           }
+           #about{
+            padding: 15px;
+           }
+           #about h2{
+           margin-bottom: 10px;
+           }
+         table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th{
+    background-color: rgb(51, 225, 225);
+}
+    #quote{
+      
+        padding: 10px;
+
+    }
+    #quote blockquote{
+        margin: 10px 0px;
+        border-left: 5px solid teal;
+        padding: 20px;
+    }
+         footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding:15px;
+            font-weight: bolder;
+         }
+         #video{
+            padding: 10px;
+         }
+         #Contact{
+            padding: 20px;
+         }
+         #Contact form{
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+         }
+          #Contact  input{
+            margin: 5px 5px;
+         }
+    </style>
+</head>
+
+<body>
+    <audio loop autoplay muted >
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+    <header>
+         <h1>T Blogs</h1>
+
+    <nav>
+       
+        <a href="#home">Home</a>
+        <a href="#about">About </a>
+        <a href="#Contact">Contact</a>
+    </nav>
+</header>
+    <main>
+        <section id="home">
+            <h2>Introduction</h2>
+            <img src="image2.png" alt="image">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius et fuga expedita iste corrupti in doloribus
+                assumenda! Necessitatibus dolorum modi, nam praesentium ex itaque nihil aliquam error, fuga, iusto ipsa?
+            </p>
+            
+            
+        </section><hr>
+        <section id="about">
+            <h2>Travel Destinations</h2>
+            <table >
+                  <tr>
+                <th>Country</th>
+                <th>Best Time to Visit</th>
+                <th>Language</th>
+            </tr>
+
+            <tr>
+                <td>Japan</td>
+                <td>March - May</td>
+                <td>Japanese</td>
+            </tr>
+
+            <tr>
+                <td>Switzerland</td>
+                <td>June - September</td>
+                <td>German, French</td>
+            </tr>
+
+            <tr>
+                <td>Australia</td>
+                <td>September - November</td>
+                <td>English</td>
+            </tr>
+
+            </table>
+
+        </section><hr>
+        <section id="quote">
+            <h2>Travel Quote</h2>
+
+        <blockquote>
+            "The world is a book, and those who do not travel read only one page."
+            – Saint Augustine
+        </blockquote>
+       
+        </section> <hr>
+        <section id="video">
+            
+            <video controls>
+                <source src="www.nothing.com">
+            </video>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form>
+
+        <label>Full Name:</label>
+        <input type="text" required>
+                    <br>
+                    
+        <label>Destination Interest:</label>
+        
+        <select>
+            <option>Japan</option>
+            <option>Switzerland</option>
+            <option>Australia</option>
+            <option>India</option>
+        </select>
+ <br> <br>
+        <label>Type of Traveler:</label><br>
+
+        <input type="radio" name="traveler" required> Solo
+        <input type="radio" name="traveler"  > Family
+        <input type="radio" name="traveler"> Friends
+
+        <br><br>
+
+        <label>Travel Preferences:</label><br>
+
+        <input type="checkbox"> Adventure
+        <input type="checkbox"> Luxury
+        <input type="checkbox"> Budget
+
+        <br><br>
+
+        <label>Email ID:</label>
+        <input type="email" required >
+
+        <input type="submit" value="Submit">
+
+    </form>
+        </section>
+    </main>
+    <footer>
+        <p>T blog rights</p>
+    </footer>
+</body>
+
+</html>
