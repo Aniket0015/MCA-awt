@@ -65,7 +65,7 @@ form.addEventListener("submit", async (e) => {
         let response;
 
         if (editId == null) {
-           
+
             response = await fetch(API_URL, {
                 method: "POST",
                 headers: {
@@ -75,7 +75,7 @@ form.addEventListener("submit", async (e) => {
             });
 
         } else {
-            
+
             response = await fetch(`${API_URL}/${editId}`, {
                 method: "PUT",
                 headers: {
@@ -125,7 +125,7 @@ function make_table_row() {
 
         let row = document.createElement("tr");
 
-        
+
         const keys = ["name", "gender", "department", "salary", "date"];
 
         keys.forEach((key) => {
