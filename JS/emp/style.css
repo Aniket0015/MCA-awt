@@ -1,0 +1,108 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    padding: 30px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+#employee-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#employee-form input:not([type="radio"]) {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#employee-form input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#employee-form p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#employee-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+#employee-form label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#employee-form input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#employee-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+#employee-info-table {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+
+td button {
+    padding: 7px 12px;
+    margin-right: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+

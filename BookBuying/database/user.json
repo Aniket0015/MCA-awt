@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "name": "name",
+      "email": "e",
+      "password": "12",
+      "id": "ldI-2fdbSc0"
+    }
+  ],
+  "books": [
+   
+        {
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "price": 399,
+          "image": "book1.jpg"
+        },
+        {
+          "title": "Atomic Habits",
+          "author": "James Clear",
+          "price": 499,
+          "image": "book2.jpg",
+           "description": "A book about building good habits and breaking bad ones."
+        },
+        {
+          "title": "The Alchemist",
+          "author": "Paulo Coelho",
+          "price": 299,
+          "image": "book3.jpg"
+        }  
+    
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

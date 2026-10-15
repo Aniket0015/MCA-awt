@@ -1,0 +1,156 @@
+{
+  "employees": [
+    {
+      "e_id": "1",
+      "name": "aniket",
+      "salary": "67800",
+      "id": "9vTY9-ly2YQ"
+    },
+    {
+      "e_id": "2",
+      "name": "ram",
+      "salary": "60800",
+      "id": "haZe9YEKVT0"
+    },
+    {
+      "e_id": "3",
+      "name": "rahul",
+      "salary": "23800",
+      "id": "wJVKHD5rCXI"
+    },
+    {
+      "e_id": 4,
+      "name": "ash",
+      "salary": 18000,
+      "id": "zd_LkM0Unro"
+    },
+    {
+      "name": "aniket",
+      "e_id": 2,
+      "email": "k@gmail.com",
+      "id": "Ip7_YnOhHlg"
+    },
+    {
+      "name": "aniket",
+      "e_id": 2,
+      "email": "anik@gmail.com",
+      "id": "PuXB6qh6CXU"
+    }
+  ],
+  "employee": [
+    {
+      "name": "r",
+      "salary": 45,
+      "dept": "hr",
+      "id": "d4-w2aeWkL0"
+    },
+    {
+      "name": "x",
+      "salary": 78,
+      "dept": "it",
+      "id": "sXUUxqziFlQ"
+    },
+    {
+      "name": "r",
+      "salary": 45,
+      "dept": "hr",
+      "id": "_fn80_Jge-c"
+    },
+    {
+      "name": "x",
+      "salary": 78,
+      "dept": "it",
+      "id": "zm8KI_yZr5o"
+    }
+  ],
+  "admins": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": 1234,
+        "name": "Admin User"
+      }
+    ],
+  
+    "students": [
+      {
+        "id": 101,
+        "name": "Rahul",
+        "course": "MCA"
+      },
+      {
+        "id": 102,
+        "name": "Priya",
+        "course": "BCA"
+      },
+      {
+        "id": 103,
+        "name": "Aman",
+        "course": "MCA"
+      }
+    ],
+  
+    "attendance": [
+      {
+        "id": 1,
+        "studentId": 101,
+        "attendance": 85
+      },
+      {
+        "id": 2,
+        "studentId": 102,
+        "attendance": 92
+      },
+      {
+        "id": 3,
+        "studentId": 103,
+        "attendance": 78
+      }
+    ],
+  
+    "marks": [
+      {
+        "id": 1,
+        "studentId": 101,
+        "java": 85,
+        "javascript": 90,
+        "dbms": 80
+      },
+      {
+        "id": 2,
+        "studentId": 102,
+        "java": 75,
+        "javascript": 88,
+        "dbms": 92
+      },
+      {
+        "id": 3,
+        "studentId": 103,
+        "java": 70,
+        "javascript": 76,
+        "dbms": 82
+      }
+    ],
+  
+    "fees": [
+      {
+        "id": 1,
+        "studentId": 101,
+        "amount": 50000,
+        "status": "Paid"
+      },
+      {
+        "id": 2,
+        "studentId": 102,
+        "amount": 45000,
+        "status": "Paid"
+      },
+      {
+        "id": 3,
+        "studentId": 103,
+        "amount": 50000,
+        "status": "Pending"
+      }
+    ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

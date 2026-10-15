@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+  </head>
+
+  <body>
+    <nav>
+      <p>Book buyer</p>
+
+      <div id="logo-book">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/5832/5832416.png"
+          alt="book"
+        />
+      </div>
+
+      <input
+        type="text"
+        id="search"
+        oninput="searchByName()"
+        placeholder="search"
+      />
+
+      <button onclick="sortByPrice()">Sort by price</button>
+
+      <p id="user-name">user-name</p>
+
+      <button onclick="openCart()">Cart</button>
+    </nav>
+
+    <div id="dashboard-container"></div>
+
+    <div id="book-popup" class="popup">
+      <div class="popup-content">
+        <span onclick="closePopup()" class="close-btn">  </span>
+
+        <img id="popup-image" src="" alt="book" />
+
+        <h2 id="popup-title"></h2>
+
+        <p id="popup-author"></p>
+
+        <p id="popup-description"></p>
+
+        <p id="popup-price"></p>
+
+        <button id="popup-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+
+    <div id="cart-popup" class="popup">
+      <div class="cart-popup-content">
+        <span onclick="closeCart()" class="close-btn"> </span>
+
+        <h2>Your Cart</h2>
+
+        <div id="cart-items"></div>
+
+        <h3 id="cart-total"></h3>
+
+        <div class="address-box">
+          <h3>Delivery Address</h3>
+
+          <input type="text" id="buyer-name" placeholder="Full name" />
+
+          <input type="text" id="buyer-phone" placeholder="Phone number" />
+
+          <textarea
+            id="buyer-address"
+            placeholder="Enter full delivery address"
+          ></textarea>
+
+          <input type="text" id="buyer-city" placeholder="City" />
+
+          <input type="text" id="buyer-pincode" placeholder="Pincode" />
+        </div>
+
+        <button id="buy-button" onclick="buyBooks()">Buy Now</button>
+      </div>
+    </div>
+
+    <script src="../javascript/dashboard.js"></script>
+  </body>
+</html>

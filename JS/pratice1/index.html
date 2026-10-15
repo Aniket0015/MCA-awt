@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./tableStyle.css">
+</head>
+
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form id="registrationForm">
+
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="name">
+        
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="email">
+        
+
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="password">
+        
+
+        <label>course:</label>
+        <input type="text" id="course"  placeholder="course">
+        
+
+        
+
+        
+
+        
+
+        <input type="button" id="submit" onclick="add_tr()" value="Register">
+
+    </form>
+<input type="text" id="search" oninput="search_n(event)" placeholder="name"> 
+   <div id="table-div">
+        <p id="count">0</p>
+        <table id="table">
+                <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>course</th>
+    <th> action</th>
+</tr>
+
+        </table>
+        
+    </div>
+
+</body>
+    <script src="dom.js"></script>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management System</title>
+   
+</head>
+
+<body>
+
+    <h2>Project Management System</h2>
+
+    <form id="projectForm">
+
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="name">
+
+        <label>Price:</label>
+        <input type="number" id="price" placeholder="price">
+
+        <label>Quantity:</label>
+        <input type="number" id="qty" placeholder="quantity">
+
+        <label>Category:</label>
+        <input type="text" id="category" placeholder="category">
+
+        <input type="button" id="btn" value="Add">
+
+    </form>
+
+    <input type="text" id="search"  placeholder="Search name">
+
+    <div id="table-div">
+
+        <p id="count">count: 0</p>
+        <p id="total-amount">total amount: 0</p>
+
+        <table id="table">
+
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+
+        </table>
+
+    </div>
+    <h2>Cart</h2>
+
+<p id="cart-count">Cart count: 0</p>
+<p id="cart-total">Cart total: 0</p>
+
+<table id="cart-table">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+        <th>Action</th>
+    </tr>
+</table>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

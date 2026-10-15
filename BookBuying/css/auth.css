@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#nav {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    background-color: bisque;
+
+    position: relative;
+    
+}
+
+
+
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 90vh;
+
+    position: relative;
+}
+
+
+
+
+#auth-logo-div {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+#auth-logo-image-div {
+    width: 70%;
+
+    border: 1px solid black;
+    border-radius: 23%;
+
+    position: relative;
+   
+
+    overflow: hidden;
+}
+
+
+
+
+#auth-logo-image-div img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    position: relative;
+    
+}
+
+
+
+#auth-div {
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background-color: bisque;
+    height: 55vh;
+    width: 30vw;
+    margin-right: 40px ;
+    margin-left: -140px;
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+#auth-div p {
+    margin: 20px;
+}
+
+
+
+
+form {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    border: 1px solid black;
+    padding: 15px;
+
+    background-color: beige;
+
+    position: relative;
+   
+}
+
+
+
+form input {
+    padding: 5px;
+
+    position: relative;
+    
+}
+
+
+
+
+#action-button {
+    display: flex;
+
+    margin: 5px;
+    gap: 4px;
+
+    position: relative;
+   
+}
+
+
+
+.action-button-button {
+    margin: 4px;
+    padding: 5px;
+
+    border-radius: 12%;
+    background-color: blanchedalmond;
+
+    position: relative;
+   
+}
+
+.active{
+    background-color: rgb(157, 207, 17);
+}
+#action-button button:hover{
+    cursor: pointer;
+    background-color: rgb(117, 197, 37);
+}

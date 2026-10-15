@@ -1,0 +1,67 @@
+<!-- Create an Employee Management System using HTML, CSS, and JavaScript.
+The application should allow users to add new employees, display employee details, search for employees, filter employees by department, update employee information, and delete employee records.
+The application must dynamically update the UI using JavaScript DOM methods without reloading the page. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <main>
+        <div>
+            <form id="employee-form">
+                <input type="text" placeholder="name">
+                <input type="password" placeholder="password">
+                <input type="email" placeholder="email">
+                <input type="text" placeholder="department">
+                <input type="number" placeholder="salary">
+                <input type="date" placeholder="date">
+                <p>Select Gender:</p>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <input type="text" id="search" placeholder="Search by name">
+
+        <select id="filter-department">
+            <option value="all">All Departments</option>
+        </select>
+        <div id="employee-info-table">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Department</th>
+                        <th>Salary</th>
+                        <th>Start date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="employee-list"></tbody>
+            </table>
+
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+
+</html>
