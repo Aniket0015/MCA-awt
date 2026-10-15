@@ -40,11 +40,20 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
-        <input type="text" id="search" placeholder="Search by name">
+       <div id="employee-filters" class="filter-container">
 
-        <select id="filter-department">
-            <option value="all">All Departments</option>
-        </select>
+    <input
+        type="text"
+        id="search"
+        class="filter-input"
+        placeholder="Search by name"
+    >
+
+    <select id="filter-department" class="filter-select">
+        <option value="all">All Departments</option>
+    </select>
+
+</div>
         <div id="employee-info-table">
 
             <table>
